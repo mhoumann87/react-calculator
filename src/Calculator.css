@@ -1,0 +1,31 @@
+.calc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #595959;
+}
+
+.calc button {
+  border: none;
+  background: #fff;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.1rem;
+}
+
+.display {
+  grid-column: span 4;
+  background-color: #3c6b30;
+  color: #0a1208;
+  font-family: 'Syne Mono', monospace;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  text-align: end;
+  overflow: hidden;
+}
+
+.calc .dobbel {
+  grid-column: span 2;
+  background: #f28705;
+}
