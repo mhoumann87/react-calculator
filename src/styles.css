@@ -25,7 +25,7 @@ body {
   outline: transparent;
 }
 
-.calculator-grid > button:is(:hover, :focus) {
+.calculator-grid > button:is(:hover, :focus-visible) {
   background-color: #ffffffe6;
 }
 
@@ -38,7 +38,7 @@ body {
   background-color: #000000bf;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-around;
   padding: 0.75rem;
   word-wrap: break-word;
